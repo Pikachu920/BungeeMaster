@@ -24,7 +24,7 @@ import org.bukkit.event.Event;
                 })
         },
         syntax = {
-                "last [(ran|executed)] bungee[cord] (command|cmd) output"
+                "last[ly] [(ran|run|executed)] bungee[cord] (command|cmd)['s] output"
         }
 )
 public class ExprLastProxyCmdOutput extends BMExpression<String> {
